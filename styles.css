@@ -1,0 +1,33 @@
+:root {
+    --mainBlue_color: #2baaec;
+    --hoverGreen_color: #25e6c8;
+    --mainTitle_color: #363636;
+    --text_color: #626262;
+    --placeholder_color: #dedede;
+    --placeholder2_color: #bfbfbf;
+    --bg-color: #f7f7f7;
+    --ftrText_color: #f3fbff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+.showBorders {
+    border: 1px solid #62626254;
+    border-radius: 10px;
+}
