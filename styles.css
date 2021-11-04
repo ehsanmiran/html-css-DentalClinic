@@ -1,33 +1,41 @@
-:root {
-    --mainBlue_color: #2baaec;
-    --hoverGreen_color: #25e6c8;
-    --mainTitle_color: #363636;
-    --text_color: #626262;
-    --placeholder_color: #dedede;
-    --placeholder2_color: #bfbfbf;
-    --bg-color: #f7f7f7;
-    --ftrText_color: #f3fbff;
+
+
+
+.appointment {
+    background-color: var(--majorBlue_color);
+    color: var(--ftrText_color);
+    font-family: Roboto Slab;
+    text-align: center;
+    font-size: 30pt;
+    align-content: center;
+    padding: 3rem;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
-
-
-html, body {
-    font-family: 'Roboto', sans-serif;
+.appointment p {
+    display: block;
 }
 
+.btn {
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: .5rem;
+  }
+.btn-primary {
+    background-color: var(--white_color);
+    color: var(--mainBlue_color);
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 18pt;
+}
 
-
-
-
-
-
-.showBorders {
-    border: 1px solid #62626254;
-    border-radius: 10px;
+.footer {
+    background-color: var(--mainBlue_color);
+    font-size: 1em;
+    color: var(--ftrText_color);
+    text-align: center;
+    padding: 1.9rem;
 }
