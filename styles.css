@@ -1,24 +1,22 @@
 
 
-
 .appointment {
-    background-color: var(--majorBlue_color);
+     background-color: var(--majorBlue_color);
     color: var(--ftrText_color);
     font-family: Roboto Slab;
     text-align: center;
-    font-size: 30pt;
-    align-content: center;
-    padding: 3rem;
-}
-.appointment p {
-    display: block;
+    font-size: 2.508rem;
+    padding: 3rem 1rem;
 }
 
+.label {
+    display: block;
+    margin: 1.5rem 0;
+}
 .btn {
     height: 60px;
     white-space: nowrap;
-    margin-top: 3rem;
-    margin-left: 1rem;
+    margin: 1.5rem 1rem;
     border: transparent;
     background-color: transparent;
     cursor: pointer;
@@ -29,12 +27,12 @@
     color: var(--mainBlue_color);
     font-family: roboto;
     font-weight: bold;
-    font-size: 18pt;
+    font-size: 1.5048rem;
 }
 
 .footer {
     background-color: var(--mainBlue_color);
-    font-size: 1em;
+    font-size: 1.3376rem;
     color: var(--ftrText_color);
     text-align: center;
     padding: 1.9rem;

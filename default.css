@@ -60,6 +60,7 @@ html, body {
   }
   .appointment {
     display: flex; 
+    align-items: center;
   }
  }
   
@@ -68,7 +69,8 @@ html, body {
     padding: 1.13rem 3.5rem;
   }
   .appointment {
-    display: flex; 
+    display: flex;
+    align-items: center;
   }
 }
   
@@ -78,6 +80,7 @@ html, body {
   }
   .appointment {
     display: flex; 
+    align-items: center;
     justify-content: space-around;
   }
 }
