@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-section {
+    display: flex;
+    margin: 50px;
+    padding: 10px;
+    flex: row;
+    justify-content: space-between;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.text {
+    text-align: center;
+}
+
+.justify {
+    text-align: end;
+}
+
+@media (min-width: 800px) {
+    .flex-section {
+        flex: column;
+    }
+}

@@ -27,94 +27,91 @@ html, body {
 
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
-  
+  /* -- until here is the default styling -- */
 
 .appointment {
-    background-color: var(--mainorBlue_color);
-    color: var(--ftrText_color);
-    font-family: Roboto Slab;
-    text-align: center;
-    font-size: 1.875rem;
-    padding: 3rem 0;
+  background-color: var(--mainorBlue_color);
+  color: var(--ftrText_color);
+  font-family: Roboto Slab;
+  font-size: 1.875rem;
+  padding: 3rem 0;
+  display: flex;
+ }
+
+.appointment .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .label {
+  display: block;
+  margin: 1.5rem 0;
+  text-align: center;
+}
 
-    margin: 1.5rem 0;
+.justify-btn {
+  text-align: end;
 }
 
 .btn {
-    height: 60px;
-    white-space: nowrap;
-    padding: 1.13rem 3.5rem;
-    margin: 1.5rem 1rem;
-    border: transparent;
-    background-color: transparent;
-    cursor: pointer;
-    border-radius: .5rem;
+  height: 60px;
+  white-space: nowrap;
+  padding: 1.13rem 3.5rem;
+  margin: 1.5rem 1rem;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: .5rem;
 }
 .btn-primary {
-    background-color: var(--white_color);
-    color: var(--mainBlue_color);
-    border: 2px solid;
-    border-color: transparent;
-    font-family: roboto;
-    font-weight: bold;
-    font-size: 1.125rem;
+  background-color: var(--white_color);
+  color: var(--mainBlue_color);
+  border: 2px solid;
+  border-color: transparent;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
-
 .btn-primary:hover {
-    background-color: transparent;
+  background-color: transparent;
 	color: var(--white_color);
-    border: 2px solid;
-    border-color: var(--white_color);
+  border: 2px solid;
+  border-color: var(--white_color);
 }
 .btn-primary:active {
-	transform: scale(0.98); 
-	background-color: var(--mainBlue_color);
+  transform: scale(0.98); 
+  background-color: var(--mainBlue_color);
 }
 
 
 .footer {
-    background-color: var(--mainBlue_color);
-    font-size: 1rem;
-    color: var(--ftrText_color);
-    text-align: center;
-    padding: 1.9rem;
+  background-color: var(--mainBlue_color);
+  font-size: 1rem;
+  color: var(--ftrText_color);
+  text-align: center;
+  padding: 1.9rem;
 }
 
 
 
 @media (min-width: 768px){
   .container {
-    display: flex; 
-    align-items: center;
+    max-width: 720px;
   }
-  .label {
-    text-align: start;
-  }
- }
+}
   
  @media (min-width: 992px){
    .container {
-    display: flex;
-    align-items: center;
-  }
-  .label {
-    text-align: start;
+    max-width: 960px;
   }
 }
   
  @media (min-width: 1200px){
   .container {
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
-  }
-  .label {
-    text-align: start;
+  max-width: 1140px;
   }
 }
