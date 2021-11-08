@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+   }
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.our-service-top-title {
+    text-align: center;
+    width: 450px;
+
+}
+.hr {
+    width: 100%;
+    border: 2px solid #25e6c8;
+    border-radius: 2px;
+
+}
+
+
+
+.grid-fit {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-auto-rows: minmax(436px, auto);
+    gap: 1rem;
+}
+  
+/*--- cards here --- */
+.square {
+    transition: box-shadow 0.3s ease 0.3s;
+    border-radius: 10px;
+}
+
+.square:hover {
+    box-shadow: 0 0 15px rgba(19, 19, 19, 0.411); 
+}
+
+.square:hover + .square .ball {
+    background-color: red;
+}
+
+.ball {
+    background-color: #25e6c8;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.centered {
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+
+.text-cards {
+    margin-top: 4rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.border {
+   border: 1px solid #25e6c8;
+}
