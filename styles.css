@@ -38,24 +38,20 @@ html, body {
   font-family: Roboto Slab;
   font-size: 1.875rem;
   padding: 3rem 0;
-  display: flex;
  }
 
-.appointment .container {
+ .d-flex {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  margin-top: 50px;
+  flex-direction: column;
+  justify-content: space-between; 
 }
-
-.label {
-  display: block;
-  margin: 1.5rem 0;
+.justify {
   text-align: center;
+  align-items: center;
 }
 
-.justify-btn {
-  text-align: end;
-}
+
 
 .btn {
   height: 60px;
@@ -97,21 +93,40 @@ html, body {
 }
 
 
-
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
   .container {
     max-width: 720px;
   }
-}
-  
- @media (min-width: 992px){
-   .container {
-    max-width: 960px;
+  .d-flex {    
+    flex-direction: row;
   }
 }
-  
- @media (min-width: 1200px){
+
+@media screen and (min-width: 992px){
   .container {
-  max-width: 1140px;
+    max-width: 960px;
+    flex-direction: row;
+  }
+  .d-flex {    
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .container {
+      max-width: 1140px;
+      flex-direction: row;
+  }
+  .d-flex {    
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .container {
+      max-width: 1300px;
+  }
+  .d-flex {    
+    flex-direction: row;
   }
 }
