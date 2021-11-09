@@ -1,0 +1,108 @@
+:root {
+    --mainBlue_color: #2baaec;
+    --mainorBlue_color: #2ca9edcc;
+    --hoverGreen_color: #25e6c8;
+    --mainTitle_color: #363636;
+    --text_color: #626262;
+    --placeholder_color: #dedede;
+    --placeholder2_color: #bfbfbf;
+    --bg-color: #f7f7f7;
+    --ftrText_color: #f3fbff;
+    --white_color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* A class to show borders around any item, just to show up */
+.showBorders { border: 1px solid #62626254; border-radius: 5px;}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.showcase {
+    background-color: var(--placeholder_color);
+}
+
+.main-box-sc {
+    background-image: url(img/placehold1.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    }
+.main-box-sc {
+    display: flex;
+    margin-top: 5rem;
+    padding-bottom: 6.5rem;
+    justify-content: right;
+}
+.wrapper1 {
+    width: 50%;
+    justify-self: right;
+}
+
+.sc-title {
+    font-family: Roboto Slab;
+    font-size: 3.5rem;
+    color: var(--mainTitle_color);
+    text-align: start;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+
+}
+.article-width {
+
+    font-family: Roboto;
+    font-size: 1.1rem;
+    color: var(--text_color);
+    text-align: start;
+}
+
+/*----- DON*T FORGET TO MAKE THIS CHANGE--------------*/
+@media screen and (max-width: 768px){
+    .main-box-sc {
+        background-position: bottom right;
+        padding: 0 .5rem;
+    }
+    .wrapper1 {
+        width: 100%;
+        justify-self: center;
+    }
+} 
+
+
+/*----no need for this .btn class / repeated----*/
+.btn {
+    height: 60px;
+    white-space: nowrap;
+    padding: 1.13rem 3.5rem;
+    margin: 1.5rem 0;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: .5rem;
+  }
+  .btn1-primary {
+    background-color: var(--hoverGreen_color);
+    color: var(--white_color);
+    border: 2px solid;
+    border-color: transparent;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+  .btn1-primary:hover {
+    background-color: var(--mainBlue_color);
+    color: var(--white_color);
+  }
