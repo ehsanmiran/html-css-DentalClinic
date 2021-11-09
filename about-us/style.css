@@ -16,8 +16,12 @@ html, body {
    }
 
    .main-box {
+       background-image: url(img/placehold2.png);
+       background-position: bottom right;
+       background-repeat: no-repeat;
        display: flex;
        margin-top: 5rem;
+       padding-bottom: 6.5rem;
    }
    .wrapper1 {
     /* display: flex; */
@@ -28,10 +32,11 @@ html, body {
     font-size: 2rem;
     color: #363636;
     text-align: start;
-    width: 700px;
+    padding-top: 4rem;
+    width: 65%;
 }
 .article-width {
-    width: 700px;
+    width: 65%;
     font-family: Roboto;
     font-size: 1.1rem;
     color: #626262;
@@ -48,10 +53,15 @@ html, body {
     color: #2baaec;
 }
 .grid-boxes {
-    display: flex;
+    width: 75%;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 1rem;
 }
 .box {
-    padding: 4rem 6rem 0 0;
+    padding: 4rem 0 0 0;
     font-size: 2rem;
 }
 .font2 {
@@ -60,3 +70,9 @@ html, body {
     color: #363636;
     text-align: start;
 }
+/*----- DON*T FORGET TO MAKE THIS CHANGE--------------*/
+@media screen and (max-width: 768px){
+    .main-box {
+        background-position: bottom left;
+    }
+} 
