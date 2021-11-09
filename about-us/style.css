@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+  .container {
+    width: 80%;
+    margin: auto;
+   }
+
+   .main-box {
+       display: flex;
+       margin-top: 5rem;
+   }
+   .wrapper1 {
+    /* display: flex; */
+    justify-content: start;
+}
+.our-service-top-title {
+    font-family: Roboto Slab;
+    font-size: 2rem;
+    color: #363636;
+    text-align: start;
+    width: 700px;
+}
+.article-width {
+    width: 700px;
+    font-family: Roboto;
+    font-size: 1.1rem;
+    color: #626262;
+    text-align: start;
+}
+.hr {
+    margin: 1.5rem 0;
+    width: 100%;
+    border: 2px solid #25e6c8;
+    border-radius: 2px;
+}
+.blueWord {
+    font-family: Roboto Slab;
+    color: #2baaec;
+}
+.grid-boxes {
+    display: flex;
+}
+.box {
+    padding: 4rem 6rem 0 0;
+    font-size: 2rem;
+}
+.font2 {
+    font-family: Roboto Slab;
+    font-size: 1.1rem;
+    color: #363636;
+    text-align: start;
+}
