@@ -15,8 +15,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700&display=swap');
 
 html, body {
     font-family: 'Roboto', sans-serif;
@@ -52,7 +51,7 @@ html, body {
   padding-bottom: 6.5rem;
   justify-content: right;
 }
-.wrapper1 {
+.wrapper2 {
   width: 50%;
   justify-self: right;
 }
@@ -74,9 +73,22 @@ html, body {
   text-align: start;
 }
 
+.btn {
+  height: 60px;
+  white-space: nowrap;
+  padding: 1.13rem 3.5rem;
+  margin: 1.5rem 0;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: .5rem;
+}
+
 .btn1-primary {
   background-color: var(--hoverGreen_color);
   color: var(--white_color);
+  border: 2px solid;
+  border-color: transparent;
   font-family: roboto;
   font-weight: bold;
   font-size: 1.125rem;
@@ -93,7 +105,7 @@ html, body {
       background-position: bottom right;
       padding: 0 .5rem;
   }
-  .wrapper1 {
+  .wrapper2 {
       width: 100%;
       justify-self: center;
   }
@@ -285,16 +297,7 @@ html, body {
 
 
 
-.btn {
-  height: 60px;
-  white-space: nowrap;
-  padding: 1.13rem 3.5rem;
-  margin: 1.5rem 1rem;
-  border: transparent;
-  background-color: transparent;
-  cursor: pointer;
-  border-radius: .5rem;
-}
+
 .btn-primary {
   background-color: var(--white_color);
   color: var(--mainBlue_color);
