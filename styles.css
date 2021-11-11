@@ -15,11 +15,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700;900&display=swap');
 
-html, body {
-    font-family: 'Roboto', sans-serif;
-}
 
 /* A class to show borders around any item, just to show up */
 .showBorders { border: 1px solid #62626254; border-radius: 5px;}
@@ -112,15 +109,14 @@ html, body {
 
 .sc-title {
   font-family: Roboto Slab;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: var(--mainTitle_color);
   text-align: start;
-  padding-top: 6rem;
+  padding-top: 10rem;
   padding-bottom: 1rem;
-
 }
-.article-width {
 
+.article-width1 {
   font-family: Roboto;
   font-size: 1.1rem;
   color: var(--text_color);
@@ -181,14 +177,14 @@ html, body {
 }
 .aboutUs-top-title {
   font-family: Roboto Slab;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #363636;
   text-align: start;
-  padding-top: 4rem;
-  width: 65%;
+  padding-top: 5rem;
+  width: 50%;
 }
 .article-width {
-  width: 65%;
+  width: 54%;
   font-family: Roboto;
   font-size: 1.1rem;
   color: #626262;
@@ -206,7 +202,7 @@ html, body {
   color: #2baaec;
 }
 .grid-boxes {
-  width: 75%;
+  width: 53%;
   margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
