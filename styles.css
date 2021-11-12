@@ -31,19 +31,21 @@
 
 
 /* ------ main menu section ------*/
-.menuSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 3rem 0;
+
+.op-time {
+  font-family: Roboto;
+  font-size: .75rem;
+  color: #363636;
 }
-
-#blueText { color: #2baaec; }
-
-.logocard {
+.social-icons {
+  color:#2baaec
+}
+.social-icons:hover {
+  color: #25e6c8;
+}
+.logo-group {
   display: flex;
-  align-items: center;
+  margin: 2rem 0;
 }
 .logoImage {
   margin-right: 1rem;
@@ -52,29 +54,161 @@
   font-family: Roboto Slab;
   font-size: 1.5rem;
   color: #363636;
+  margin-top: .5rem;
 }
 .logoText #Ltext {
   font-family: Roboto;
   font-size: 1rem;
   color: #626262;
 }
-#link {
-  display: inline-block;
+
+
+
+/* TOP NAV */
+.top-nav {
+  border: 1.7px solid hsla(0, 0%, 44%, 0.7);
+  padding: .5rem 1rem;
+  display: none;
 }
-.menu-links {
-  width: 30%;
-  min-width: 375px;
-  display: inline-flex;
+.top-nav .container, 
+.navbar .container {
+  display: flex;
   justify-content: space-between;
-  padding: 1rem .5rem;
+  align-items: center;
 }
-#linkk {
+
+
+.decoration {  
   text-decoration: none;
   font-family: Roboto Slab;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #363636;
 }
-#linkk:hover {
+.decoration:hover {
+  color:#2baaec
+}
+
+/* NAVBAR */
+.navbar {
+  padding: .5rem 1rem;
+}
+.collapse:not(.show) {
+  display: none;
+}
+
+.navbar-brand img {
+  height: 3rem;
+}
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  color: var(--primary-color)
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+#blueText { color: #2baaec; }
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  color: #2baaec;
+}
+
+.op-time {
+  font-family: Roboto;
+  font-size: .75rem;
+  color: #363636;
+}
+.social-icons {
+  color:#2baaec
+}
+.social-icons:hover {
+  color: #25e6c8;
+}
+.logo-group {
+  display: flex;
+  margin: 2rem 0;
+}
+.logoImage {
+  margin-right: 1rem;
+}
+.logoText #header {
+  font-family: Roboto Slab;
+  font-size: 1.5rem;
+  color: #363636;
+  margin-top: .5rem;
+}
+.logoText #Ltext {
+  font-family: Roboto;
+  font-size: 1rem;
+  color: #626262;
+}
+
+
+
+/* TOP NAV */
+.top-nav {
+  border: 1.7px solid hsla(0, 0%, 44%, 0.7);
+  padding: .5rem 1rem;
+  display: none;
+}
+.top-nav .container, 
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.decoration {  
+  text-decoration: none;
+  font-family: Roboto Slab;
+  font-size: 1rem;
+  color: #363636;
+}
+.decoration:hover {
+  color:#2baaec
+}
+
+/* NAVBAR */
+.navbar {
+  padding: .5rem 1rem;
+}
+.collapse:not(.show) {
+  display: none;
+}
+
+.navbar-brand img {
+  height: 3rem;
+}
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  color: var(--primary-color)
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+#blueText { color: #2baaec; }
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
   color: #2baaec;
 }
 
@@ -382,8 +516,26 @@
   .container {
     max-width: 720px;
   }
+  .navbar-toggler {
+    display: none;
+  }
+  .collapse:not(.show) {
+    display: block;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  a {
+    padding: 0 .5rem;
+  }
+  .top-nav {
+    display: block;
+  }
   .d-flex {    
     flex-direction: row;
+  }
+  .content {
+    text-align: left;
   }
   .menuSection {
     flex-direction: row;
