@@ -10,13 +10,15 @@
     --ftrText_color: #f3fbff;
     --white_color: #fff;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500;700;900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500;700;900&display=swap');
+    font-family: 'Roboto Slab', serif;
+  }
 
+  @font-face { font-family: URWDINArabic-Bold; src: url('../font/URWDINArabic-Bold.TTF'); }
 
 /* A class to show borders around any item, just to show up */
 .showBorders { border: 1px solid #62626254; border-radius: 5px;}
@@ -440,7 +442,7 @@
 .text-cards {
   font-size: 1.375rem;
   color: #363636;
-  font-family: Roboto Slab;
+  font-family: 'Roboto Slab', serif;
   margin-top: 4rem;
   padding: 4rem;
   text-align: center;
