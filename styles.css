@@ -170,7 +170,7 @@
 
 .decoration {  
   text-decoration: none;
-  font-family: Roboto Slab;
+  font-family:  'Roboto Slab', serif;
   font-size: 1rem;
   color: #363636;
 }
@@ -273,7 +273,7 @@
   color: var(--white_color);
   border: 2px solid;
   border-color: transparent;
-  font-family: roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 1.125rem;
 }
