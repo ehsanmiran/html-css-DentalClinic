@@ -440,10 +440,14 @@
 }
 
 
+.text-cards h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
 .text-cards {
   font-size: 1.375rem;
   color: #363636;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
   margin-top: 4rem;
   padding: 4rem;
   text-align: center;
